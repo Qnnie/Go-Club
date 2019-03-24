@@ -1,0 +1,24 @@
+{
+  "name": "Go-Club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qnnie/Go-Club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qnnie/Go-Club/issues"
+  },
+  "homepage": "https://github.com/Qnnie/Go-Club#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
