@@ -79,10 +79,14 @@ input, select, textarea {
 		-o-transform: rotate(180deg);          /* Opera */
 		-ms-transform: rotate(180deg);         /* IE9 */
 		transform: rotate(180deg);             /* W3C compliant browsers */
-	
+	    
 		/* IE8 and below */
 		filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=0, M21=0, M22=-1, DX=0, DY=0, SizingMethod='auto expand');
 	} 
+
+	#cell {
+		image-orientation: from-image;
+	}
 
 	#aboutUsList {
 		margin-top: -50px;
